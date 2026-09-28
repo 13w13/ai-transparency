@@ -1,8 +1,10 @@
 # How I work with AI
 
-*Work in progress. Version 0.3, 28 September 2026. A personal note about my own practice; it does not speak for my employer.*
+*Work in progress. Version 0.3, 28 September 2026. A personal transparency note about my own practice; it does not speak for my employer.*
 
-I work in information management: the data an organisation collects, and the tools and systems around it. A large share of that work now goes through AI tools, mostly agents that can work directly on my files and on the systems I look after. I would rather say so plainly than leave anyone guessing. This page describes how I work with these tools, what I keep for myself, and why.
+I work in information management: the data an organisation collects, and the tools and systems around it. A large share of that work now goes through AI tools, mostly agents that can work directly on my files and on the systems I look after. I would rather say so plainly than leave anyone guessing.
+
+This is not a technical README. It is a transparency note: how I work with these tools, what I keep for myself, and why. As more of our work passes through machines, I think this kind of transparency will matter more and more.
 
 ## Where my time goes now
 
