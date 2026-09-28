@@ -1,120 +1,112 @@
 # How I work with AI
 
-**Status: work in progress.** Version 0.1, 27 September 2026. A personal note about my own practice; it does not speak for my employer. It will change, and the git history keeps every version.
+*Work in progress. Version 0.3, 28 September 2026. A personal note about my own practice; it does not speak for my employer.*
 
-I work in information management: data, documents, and the systems that hold them. This page explains how tools built on large language models (LLMs) fit into that work, what happens to what you send me, and what you can ask me to do differently. It exists so that the answer to "was this written with an AI?" is public, dated and versioned, rather than reconstructed after the fact.
+I work in information management: the data an organisation collects, and the tools and systems around it. A large share of that work now goes through AI tools, mostly agents that can work directly on my files and on the systems I look after. I would rather say so plainly than leave anyone guessing. This page describes how I work with these tools, what I keep for myself, and why.
 
-## In short
+## Where my time goes now
 
-- LLM-based tools are part of my daily work: drafting, analysis, code, data structures, working notes.
-- What you send me (emails, documents, data extracts) may pass through these tools and be summarised in my working notes.
-- I read and sign off everything I send. Nothing goes out without me.
-- Personal data about the people my organisation serves stays out of these tools; see the safeguards, and their limits, below.
-- You can set your preferences at any time (no LLM on what you send me, no LLM-drafted replies, nothing kept in my notes): use the preference form linked from my email signature, or reply to one of my emails.
+In my experience, information management has long meant producing things: data collection forms, cleaning scripts, databases, dashboards, and the documentation that goes with them. Agents have made that production cheap. A script that took a day takes an hour. A first version of a dashboard takes an afternoon. Agents read several hundred pages of vendor documentation in minutes.
 
-## How I see it
+What has not become cheap is everything around the production. Knowing what a team actually needs. Agreeing on what a number means before anyone draws it. Checking that the figure on the screen matches what happened on the ground. Building something a team can run without me, and helping the people who will use it get comfortable with it.
 
-I think of information management as a craft. The tools are the power tools of the workshop: they cut faster and straighter than I do by hand, but they do not decide what to build, for whom, or whether the piece is good enough to leave the shop. That decision, and the responsibility that goes with it, stays with me.
+That is where I try to put my hours now. For me, the gain from these tools is time, moved from producing to the parts of the job that need a person.
 
-In practice I work less like a writer with an assistant and more like the manager of a small team of agents: I brief them, I review, I send work back, I write down the rules they must follow next time.
+The tools help with the thinking too, and not only with the making. I brainstorm with an agent, ask it to challenge a plan or to test a method against published standards, and use it to reflect on how this job is changing. This page started as one of those conversations.
 
-And I mix. I rarely take one output as it comes. Like a DJ, I combine drafts from several models and agents, cut what is weak, re-sequence, and finish by hand. The result is mine, even when most of the words were first typed by a machine.
+Two things keep me honest. The first is attention. The limit is rarely the speed of the tools; it is how much I can read and check, and reading is the one step I cannot hand over. The second is the temptation to polish. When building is cheap, it is easy to perfect the wrong thing. I once watched a dashboard go through seven mock-ups before we noticed that its headline figure was off by a factor of more than three: the counting rule had never been agreed with the person who owned it. Speed had hidden the question. Since then, definitions come first and visuals after.
 
-## Why say it at all
+## Like a DJ
 
-Two reasons. Transparency: if a tool helps me write to you, you should know. Accountability: writing it down, with a date, is cheaper than explaining it later.
+The image I keep coming back to is a DJ. A DJ does not play every instrument. They know their records, choose what fits the room, cue the next track while the current one plays, cut what drags, and keep an eye on the crowd.
 
-A third, more personal one. I edit my texts against a style guide that removes the usual marks of machine writing. Without this page, that could look like concealment. With it, it is a matter of style.
+My records are different models and agents, several working sessions running side by side, vendor documentation, community tools, what colleagues know, and the data itself. I rarely take one output as it comes. I combine drafts, keep the strongest parts, change the order, and finish by hand. The crowd is the people the work is for: if it does not land with them, the mix was wrong, however clever it sounded.
+
+Information management is also a craft, and on some days the agents feel like the power tools of a workshop: faster and straighter than my hands, with no opinion on what to build. On other days it feels like managing a small team. I brief, I review, I send work back, and I write down what should change next time. Either way, the set has my name on it.
+
+## How a piece of work gets made
+
+It starts with context. When I open a session, the agent is handed a short brief on where my projects stand and what happened in the last sessions, so we pick up where we left off.
+
+Then I describe the problem the way I would brief a colleague, sometimes by voice, often in rough notes. For complex work, the agent comes back with a plan first, and I approve or change it before anything is built.
+
+The work then fans out. The main agent sends helpers to read documentation or search past projects, and they come back with conclusions and their sources rather than raw dumps. On larger pieces, several sessions run in parallel, each on its own track.
+
+Everything is built against reality. Forms, data pipelines and dashboards are made first in a test environment, with synthetic data or a faithful copy, then checked where they will actually live: on an emulated phone, or against the server's own answer. "It should work" is not a result.
+
+Then come fresh eyes. For forms, dashboards, BI code and scripts, a separate reviewer agent, which knows nothing of how the thing was made, scores the work against our standards, and corrections come in waves. Then I review. Anything addressed to a person goes out after I have read it; emails, for instance, are prepared as drafts that I send myself. Once I have approved a direction, some technical loops run on their own, such as publishing a draft dashboard to an internal workspace, exporting its pages, looking at them, fixing and repeating. I look at the result before I share it.
+
+Sessions end with notes on what was decided and what comes next. Local copies that hold personal data are kept only as long as the project needs them, then deleted.
+
+And every mistake becomes a rule: a few lines, dated, with the story of what went wrong. There are about sixty of them now, and the agent reads them at the start of every session. Over time the rules have become the method, and they are probably the most useful thing I have built.
+
+## The setup
+
+Nothing exotic, and mostly plain text. A working memory (an index, one file per project, a session log and a "where we left off" note), the rules, and 26 skills, which are packaged procedures for recurring jobs such as building a data collection form, designing a dashboard, analysing a dataset or writing a document in the house style. One copy of the skills is shared by two different agent tools. Five reviewer agents each have a narrow brief. Connectors reach the systems I administer, and the agent can drive a browser and a phone emulator when it needs to see what a user would see.
+
+## What stays with me
+
+Deciding what to build and when to stop. Agreeing definitions with the people who own them. Reading everything that goes out to a person. Answering for the result, whoever typed the first draft. And the time with people, explaining and training, which is where the hours saved by the tools should go.
 
 ## The tools
 
-| Tool | Provider | What I use it for | Contract and training setting | Provider policy |
-|---|---|---|---|---|
-| Claude (Claude Code, claude.ai) | Anthropic | Drafting, document and data analysis, code, forms, dashboards, agents that keep my working notes | To confirm: type of offer, and whether my content may be used for training. I will state it here once verified. | [Anthropic privacy policy](https://www.anthropic.com/legal/privacy) · [Privacy center](https://privacy.claude.com/) |
-| Codex | OpenAI | Same tasks; second opinion on code and structure | To confirm, same as above. | [OpenAI privacy policy](https://openai.com/policies/privacy-policy) |
-| Microsoft Copilot | Microsoft, inside my employer's Microsoft 365 tenant | Email, meeting notes, Office documents | Enterprise contract. Microsoft states that prompts, responses and data accessed through Microsoft Graph are not used to train its foundation models. | [Data, privacy and security for Microsoft Copilot](https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-privacy) |
+| Tool | Provider | Part in my work |
+|---|---|---|
+| Claude, mainly through Claude Code | Anthropic | Main working environment: agents, code, analysis, drafting, working notes |
+| Codex | OpenAI | A second agent tool, using the same skills |
+| Microsoft Copilot | Microsoft, within my employer's Microsoft 365 | Questions over internal documents, and assistants built on them |
 
-Other tools may appear for a specific task (speech to text, translation). I will add them here when they become part of the routine.
+I use more than one model and switch between them depending on the job. Provider policies: [Anthropic](https://code.claude.com/docs/en/data-usage), [OpenAI](https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance), [Microsoft Copilot](https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-privacy).
 
-## What the tools do
+## What happens to information
 
-- Draft: emails, reports, guides, presentations, this page.
-- Analyse: read a document or a data export and answer my questions about it; profile a dataset; compare versions.
-- Build: data collection forms, scripts, data pipelines, dashboards.
-- Remember: keep my working notes up to date (see "What is kept").
-- Check: review a form, a script or a dashboard against my organisation's standards before I release it.
+My working notes live in my work environment. The agent reads them to pick up context: which projects are open, what was decided, what comes next, who asked for what. Nobody else reads them.
 
-## What I do
+What the providers do with what the agent sends them:
 
-1. **Brief.** I frame each request: context, constraints, expected output. For complex work the tool proposes a plan first, and I approve or change it before anything is built.
-2. **Demand sources.** The tools must cite what they read. A claim without a source is not accepted, and "verify before asserting" is one of the written rules they load at every session.
-3. **Iterate.** I correct, the tool revises. For critical outputs (a data collection form going to an operational team, a published dashboard), a second agent with no memory of the drafting reviews the result.
-4. **Test.** Forms and data pipelines run on a test server with synthetic data before they touch production.
-5. **Review and sign.** I read everything before it leaves: emails (the tools can prepare a draft in my mailbox, never send), documents, forms, dashboards. One nuance, for honesty: once I have approved a dashboard design, the tool may publish, check and correct several iterations on its own in my organisation's BI workspace. I review the result before anyone else sees it.
-6. **Write the rule.** Each mistake becomes a written rule that the tools load at the start of every session. Over time, the rules are the method.
+- **To answer**, every message goes to the provider's servers, notes included.
+- **Training**: I turn it off wherever I can. OpenAI trains on personal accounts by default (Codex has a second switch); business plans and Microsoft Copilot don't train on your data.
+- **Safety**: automated systems scan conversations; flagged ones can be kept for up to two years at Anthropic.
+- **Research and ads**: Anthropic studies usage in aggregate, read by a model rather than by people. ChatGPT's Free and Go plans show ads matched to the conversation; paid plans don't, and Claude has no ads.
+- **Retention**: 30 days for Claude with training off; longer for feedback, flagged content or a court order (in 2025 a US court made OpenAI keep deleted chats for months).
+- **Profiling**: turning training off doesn't stop it. Providers log account, device and usage data and build a profile of the account holder, meaning me (memory, and at OpenAI, age estimation). Research also shows these models can infer personal traits such as location, income or age from ordinary text.
 
-## What may be processed
+Training is the step that matters most. European regulators consider that a model trained on personal data is not anonymous by default: it can memorise, and fragments can be extracted through queries ([EDPB, 2024](https://www.edpb.europa.eu/documents/opinion-of-the-board-art-64/opinion-282024-on-certain-data-protection-aspects-related-to_en); [CNIL, 2025](https://cnil.fr/fr/ia-analyser-le-statut-dun-modele-dia-au-regard-du-rgpd)). That is why I switch it off wherever I can.
 
-- Emails and messages you send me, and attachments I open.
-- Working documents: questionnaires, forms, data exports, reports, meeting notes, proposals.
-- Structure and metadata of the systems I administer (data collection platform, data warehouse, BI): field names, counts, logs.
-- My own working notes.
+The line I watch most is personal data about the people my organisation serves. When the work touches it, the agent handles it through scripts that report structure and counts rather than content, on test servers or local copies wherever possible, and none of it goes into my notes. Passwords and keys are kept out of my notes and prompts; most live in the operating system's credential store. The system is not perfect: when a safeguard fails, I record it, fix the rule that let it through, and tell my organisation's data protection officer if personal data was involved.
 
-What stays out, as a rule: see "Sensitive data".
+## What I'm uneasy about
 
-## What is kept: three different things
+These tools are not neutral on authors' rights. They were built by vacuuming up a huge share of humanity's written knowledge, often without the authors' consent, turning that common knowledge into private products. Rules are arriving (Anthropic agreed to pay $1.5 billion to the authors of pirated books; the EU AI Act now requires model providers to respect authors' opt-outs and publish a summary of their training data), but the question is far from closed. I use the tools anyway, because I think we need to master them to use them for good, and I don't consider the question settled.
 
-People often merge these. They are not the same.
+Who checks what the providers promise? No one in real time. Auditors review their processes, and regulators and courts step in after the fact. What I can check is my own settings and what I choose to send.
 
-1. **My working notes.** Files in my work environment, sometimes called my "vault". At the start of a session the tools read them to recover context: which projects are open, what was decided, what comes next. An exchange with you may end up there as a short summary: who asked what, the decision, the next step. These notes contain no personal data about the people my organisation serves. Nobody else reads them. When a tool loads them, they travel to the provider like any other conversation content (see points 2 and 3). If you ask, I will tell you what they say about you.
-2. **Conversation history at the provider.** Depending on the product and its settings, the provider may keep a copy of my conversations to run the service. The retention rules are the provider's; see the links in the table.
-3. **Model training.** A separate question from retention. Whether a provider may use my content to improve its models depends on the contract and on settings I control. I will state the position for each tool in the table above once verified.
+I would like to move to open models running on my own machine, so that nothing leaves it. Doing that well takes time: the right hardware, the right model, and a workflow as good as the one I have now. I haven't had that time yet. For now I use proprietary models because they are the most effective for my work and I lack the time and resources to do otherwise. It is a trade-off, and I keep it open.
 
-## Sensitive data
+## A word on style
 
-What never goes into these tools:
-
-- Personal data about the people my organisation serves (case files, names, contact details, health information). When I work on such systems, I use test servers, synthetic records, or exports stripped of identifying fields.
-- Passwords, keys, tokens.
-- HR and finance data about identified colleagues.
-- Documents a partner or a funder marked confidential.
-
-How I enforce it: test environments by default; written rules, loaded at every session, that forbid displaying or noting such data; scripts that pass structure (field names, counts) rather than content; a check of what the tools wrote to my notes when I close a session.
-
-When a safeguard fails: I record the incident, fix the tooling or the rule that let it through, and inform my organisation's data protection officer if personal data is involved.
-
-## Your options
-
-**Set your preferences.** Use the preference form linked from my email signature, or reply to any of my emails and say so. You can ask me, in any combination:
-
-- not to submit the content you send me to external LLM tools: I will handle our exchanges by hand;
-- not to send you content generated or drafted with LLMs;
-- not to keep what you write to me, or summaries of it, in my working notes.
-
-You can also ask me what my working notes say about you. I will confirm by email once your choice is applied.
-
-What a request cannot change: what was processed before I received it, and copies the providers already hold under their own retention rules. In those cases, ask me and I will tell you what I know and what I can delete.
-
-**Questions or concerns.** Write to me. On request, I will give you the contact of my organisation's data protection officer.
+I edit what I write against a style guide that strips out the usual marks of machine writing. That is a matter of taste, and this page exists so that nobody has to guess what sits behind it.
 
 ## Reuse
 
-You are welcome to copy this page for your own transparency note. A link back is appreciated, not required.
-
-## Changes
-
-- 2026-09-27, v0.1: first draft.
+Feel free to copy this page for your own practice. A link back is welcome but not required.
 
 ---
 
-## Résumé en français
+## En français
 
-Cette page explique comment des outils fondés sur des grands modèles de langage (LLM) entrent dans mon travail de gestion de l'information. Note personnelle, en cours de rédaction ; elle n'engage pas mon employeur.
+*Document en cours. Version 0.3, 28 septembre 2026. Note personnelle sur ma pratique ; elle n'engage pas mon employeur.*
 
-- Ces outils (Claude, Codex, Microsoft Copilot) font partie de mon travail quotidien : rédaction, analyse, code, formulaires, tableaux de bord, notes de travail.
-- Ce que vous m'envoyez peut passer par ces outils et être résumé dans mes notes de travail. Ces notes sont des fichiers de mon environnement de travail, lus par les outils en début de session ; ce n'est ni la mémoire du modèle, ni son entraînement.
-- Je relis et j'assume tout ce que j'envoie. Rien ne part sans moi.
-- Les données personnelles des personnes que mon organisation accompagne n'entrent pas dans ces outils ; je travaille sur des serveurs de test et des données synthétiques.
-- Vous pouvez à tout moment garder vos messages en dehors : le formulaire de préférence lié depuis ma signature de mail, ou une réponse à l'un de mes mails. Vous pouvez aussi me demander ce que mes notes disent de vous.
+Je travaille en gestion de l'information : les données qu'une organisation collecte, et les outils et systèmes qui les entourent. Une grande partie de ce travail passe aujourd'hui par des outils d'IA, surtout des agents qui travaillent directement sur mes fichiers et sur les systèmes dont je m'occupe. Je préfère le dire clairement.
 
-Je vois ce métier comme un artisanat : les outils sont les machines de l'atelier, elles ne décident ni quoi construire, ni si la pièce peut sortir. Je travaille comme le chef d'une petite équipe d'agents : je cadre, je relis, je renvoie, j'écris la règle pour la fois suivante. Et je mixe, comme un DJ : je prends rarement une sortie telle quelle, je combine, je coupe, je finis à la main.
+La production (formulaires, scripts, bases, tableaux de bord) est devenue bon marché. Ce qui ne l'est pas : comprendre ce dont une équipe a besoin, s'accorder sur ce qu'un chiffre veut dire avant de le dessiner, vérifier qu'il correspond à la réalité, construire quelque chose que l'équipe fera vivre sans moi, et accompagner les personnes qui l'utiliseront. C'est là que je mets mon temps.
+
+Ces outils servent aussi à réfléchir, pas seulement à produire : brainstormer, mettre un plan à l'épreuve, confronter une méthode aux standards publiés, réfléchir à l'évolution du métier. Cette page est née d'une de ces conversations.
+
+Je travaille un peu comme un DJ : plusieurs modèles et agents, plusieurs sessions en parallèle, la documentation des éditeurs, des outils communautaires, le savoir des collègues et les données elles-mêmes. Je prends rarement une sortie telle quelle : je combine, je garde le meilleur, je réordonne et je finis à la main. Le public, ce sont les personnes pour qui je travaille ; si ça ne leur parle pas, le mix était mauvais.
+
+Le travail suit en général la même boucle : du contexte au départ, un plan validé avant de construire, des agents qui lisent et cherchent en parallèle, des formulaires et tableaux de bord construits en environnement de test puis vérifiés là où ils vivront, un relecteur indépendant, puis ma relecture. Rien ne part vers une personne sans que je l'aie lu. Chaque erreur devient une règle écrite ; il y en a une soixantaine.
+
+Mes notes de travail restent dans mon environnement de travail et n'accueillent aucune donnée personnelle des personnes que mon organisation accompagne. Quand le travail touche ces données, les agents passent par des scripts qui rapportent la structure et les comptes plutôt que le contenu, sur des serveurs de test ou des copies locales autant que possible. Le système n'est pas parfait : quand un garde-fou lâche, je le consigne, je corrige la règle, et je préviens le délégué à la protection des données de mon organisation si des données personnelles sont en jeu.
+
+Je désactive l'entraînement des modèles partout où je le peux, parce qu'un modèle entraîné sur des données personnelles n'est pas anonyme par défaut (CEPD, CNIL). Pour le reste, les fournisseurs gardent la main (30 jours de conservation pour Claude dans mon cas, davantage en cas de signalement ou de décision de justice), désactiver l'entraînement n'empêche pas le profilage, et personne ne le vérifie en temps réel. Ces outils ont aussi été construits en aspirant une part immense du savoir écrit de l'humanité, souvent sans le consentement des auteurs, transformant ce savoir commun en produits privés. Je pense pourtant qu'il faut apprendre à les maîtriser, pour les utiliser à bon escient. J'aimerais passer à des modèles ouverts, installés sur ma machine ; faute de temps et de moyens, j'utilise pour l'instant des modèles propriétaires, les plus efficaces pour mon travail. C'est un compromis, que je garde ouvert.
