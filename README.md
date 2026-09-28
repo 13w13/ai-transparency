@@ -18,7 +18,9 @@ I don't measure it, though. I have no reliable numbers on the time these tools s
 
 The tools help with the thinking too, and not only with the making. I brainstorm with an agent, ask it to challenge a plan or to test a method against published standards, and use it to reflect on how this job is changing. This page started as one of those conversations.
 
-Two things keep me honest. The first is attention. The limit is rarely the speed of the tools; it is how much I can read and check, and reading is the one step I cannot hand over. The second is the temptation to polish. When building is cheap, it is easy to perfect the wrong thing. I once watched a dashboard go through seven mock-ups before we noticed that its headline figure was off by a factor of more than three: the counting rule had never been agreed with the person who owned it. Speed had hidden the question. Since then, definitions come first and visuals after.
+For a creative profile, these tools are a real multiplier. They lower the technical barrier to building a tool, so an idea can become a working prototype in a day. The risk is a tunnel effect: when every idea can be built right away, it is easy to disappear into building and stop asking whether the thing was needed.
+
+Two things keep me honest. The first is attention. The limit is rarely the speed of the tools; it is how much I can read and check, and reading is the one step I cannot hand over. The second is that tunnel. When building is cheap, it is easy to perfect the wrong thing. I once watched a dashboard go through seven mock-ups before we noticed that its headline figure was off by a factor of more than three: the counting rule had never been agreed with the person who owned it. Speed had hidden the question. Since then, definitions come first and visuals after.
 
 ## Like a DJ
 
