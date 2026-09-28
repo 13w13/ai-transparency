@@ -14,6 +14,8 @@ What has not become cheap is everything around the production. Knowing what a te
 
 That is where I try to put my hours now. For me, the gain from these tools is time, moved from producing to the parts of the job that need a person.
 
+I don't measure it, though. I have no reliable numbers on the time these tools save me, only impressions, and impressions flatter. What I do notice is a trade. More gets done, but my attention is split more often, between parallel sessions, reviews and interruptions, and long stretches of concentration have become rarer. The intellectual work is changing too: I write less from a blank page and spend more time reading, judging and cutting. I don't know yet whether that makes me think better or only faster. I am still watching.
+
 The tools help with the thinking too, and not only with the making. I brainstorm with an agent, ask it to challenge a plan or to test a method against published standards, and use it to reflect on how this job is changing. This page started as one of those conversations.
 
 Two things keep me honest. The first is attention. The limit is rarely the speed of the tools; it is how much I can read and check, and reading is the one step I cannot hand over. The second is the temptation to polish. When building is cheap, it is easy to perfect the wrong thing. I once watched a dashboard go through seven mock-ups before we noticed that its headline figure was off by a factor of more than three: the counting rule had never been agreed with the person who owned it. Speed had hidden the question. Since then, definitions come first and visuals after.
