@@ -90,23 +90,3 @@ I edit what I write against a style guide that strips out the usual marks of mac
 ## Reuse
 
 Feel free to copy this page for your own practice. A link back is welcome but not required.
-
----
-
-## En français
-
-*Document en cours. Version 0.3, 28 septembre 2026. Note personnelle sur ma pratique ; elle n'engage pas mon employeur.*
-
-Je travaille en gestion de l'information : les données qu'une organisation collecte, et les outils et systèmes qui les entourent. Une grande partie de ce travail passe aujourd'hui par des outils d'IA, surtout des agents qui travaillent directement sur mes fichiers et sur les systèmes dont je m'occupe. Je préfère le dire clairement.
-
-La production (formulaires, scripts, bases, tableaux de bord) est devenue bon marché. Ce qui ne l'est pas : comprendre ce dont une équipe a besoin, s'accorder sur ce qu'un chiffre veut dire avant de le dessiner, vérifier qu'il correspond à la réalité, construire quelque chose que l'équipe fera vivre sans moi, et accompagner les personnes qui l'utiliseront. C'est là que je mets mon temps.
-
-Ces outils servent aussi à réfléchir, pas seulement à produire : brainstormer, mettre un plan à l'épreuve, confronter une méthode aux standards publiés, réfléchir à l'évolution du métier. Cette page est née d'une de ces conversations.
-
-Je travaille un peu comme un DJ : plusieurs modèles et agents, plusieurs sessions en parallèle, la documentation des éditeurs, des outils communautaires, le savoir des collègues et les données elles-mêmes. Je prends rarement une sortie telle quelle : je combine, je garde le meilleur, je réordonne et je finis à la main. Le public, ce sont les personnes pour qui je travaille ; si ça ne leur parle pas, le mix était mauvais.
-
-Le travail suit en général la même boucle : du contexte au départ, un plan validé avant de construire, des agents qui lisent et cherchent en parallèle, des formulaires et tableaux de bord construits en environnement de test puis vérifiés là où ils vivront, un relecteur indépendant, puis ma relecture. Rien ne part vers une personne sans que je l'aie lu. Chaque erreur devient une règle écrite ; il y en a une soixantaine.
-
-Mes notes de travail restent dans mon environnement de travail et n'accueillent aucune donnée personnelle des personnes que mon organisation accompagne. Quand le travail touche ces données, les agents passent par des scripts qui rapportent la structure et les comptes plutôt que le contenu, sur des serveurs de test ou des copies locales autant que possible. Le système n'est pas parfait : quand un garde-fou lâche, je le consigne, je corrige la règle, et je préviens le délégué à la protection des données de mon organisation si des données personnelles sont en jeu.
-
-Je désactive l'entraînement des modèles partout où je le peux, parce qu'un modèle entraîné sur des données personnelles n'est pas anonyme par défaut (CEPD, CNIL). Pour le reste, les fournisseurs gardent la main (30 jours de conservation pour Claude dans mon cas, davantage en cas de signalement ou de décision de justice), désactiver l'entraînement n'empêche pas le profilage, et personne ne le vérifie en temps réel. Ces outils ont aussi été construits en aspirant une part immense du savoir écrit de l'humanité, souvent sans le consentement des auteurs, transformant ce savoir commun en produits privés. Je pense pourtant qu'il faut apprendre à les maîtriser, pour les utiliser à bon escient. J'aimerais passer à des modèles ouverts, installés sur ma machine ; faute de temps et de moyens, j'utilise pour l'instant des modèles propriétaires, les plus efficaces pour mon travail. C'est un compromis, que je garde ouvert.
