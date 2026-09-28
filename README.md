@@ -2,7 +2,7 @@
 
 *Work in progress. A personal transparency note; it does not speak for my employer.*
 
-Somewhere between the moment you write to me and the moment I answer, there may be a machine. It may have read your message, helped me think it through, or drafted part of my reply. I would rather tell you than leave you guessing. This page starts with what I think about working this way, then turns to the practical side.
+Large language models are working their way into everything I do: the code I write, the texts I draft, even the way I think a problem through. My use of them keeps growing, often faster than I notice. This note is an attempt to keep an honest record of it: what I think about these tools, how I work with them, and what happens to the words that pass through them.
 
 ## Reflections
 
