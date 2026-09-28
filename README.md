@@ -2,15 +2,15 @@
 
 *Work in progress. Version 0.3, 28 September 2026. A personal transparency note about my own practice; it does not speak for my employer.*
 
-I work in information management: the data an organisation collects, and the tools and systems around it. A large share of that work now goes through AI tools, mostly agents that can work directly on my files and on the systems I look after. I would rather say so plainly than leave anyone guessing.
+A large share of my work now goes through AI tools, mostly agents that can work directly on my files and on the systems I look after. I would rather say so plainly than leave anyone guessing.
 
 This is not a technical README. It is a transparency note: how I work with these tools, what I keep for myself, and why. As more of our work passes through machines, I think this kind of transparency will matter more and more.
 
 ## Where my time goes now
 
-In my experience, information management has long meant producing things: data collection forms, cleaning scripts, databases, dashboards, and the documentation that goes with them. Agents have made that production cheap. A script that took a day takes an hour. A first version of a dashboard takes an afternoon. Agents read several hundred pages of vendor documentation in minutes.
+For a long time, a big part of my work meant producing things: forms, scripts, databases, dashboards, and the documentation that goes with them. Agents have made that production cheap. A script that took a day takes an hour. A first version of a dashboard takes an afternoon. Agents read several hundred pages of vendor documentation in minutes.
 
-What has not become cheap is everything around the production. Knowing what a team actually needs. Agreeing on what a number means before anyone draws it. Checking that the figure on the screen matches what happened on the ground. Building something a team can run without me, and helping the people who will use it get comfortable with it.
+What has not become cheap is everything around the production. Knowing what a team actually needs. Agreeing on what a number means before anyone draws it. Checking that the figure on the screen matches what actually happened. Building something a team can run without me, and helping the people who will use it get comfortable with it.
 
 That is where I try to put my hours now. For me, the gain from these tools is time, moved from producing to the parts of the job that need a person.
 
@@ -24,7 +24,7 @@ The image I keep coming back to is a DJ. A DJ does not play every instrument. Th
 
 My records are different models and agents, several working sessions running side by side, vendor documentation, community tools, what colleagues know, and the data itself. I rarely take one output as it comes. I combine drafts, keep the strongest parts, change the order, and finish by hand. The crowd is the people the work is for: if it does not land with them, the mix was wrong, however clever it sounded.
 
-Information management is also a craft, and on some days the agents feel like the power tools of a workshop: faster and straighter than my hands, with no opinion on what to build. On other days it feels like managing a small team. I brief, I review, I send work back, and I write down what should change next time. Either way, the set has my name on it.
+This work is also a craft, and on some days the agents feel like the power tools of a workshop: faster and straighter than my hands, with no opinion on what to build. On other days it feels like managing a small team. I brief, I review, I send work back, and I write down what should change next time. Either way, the set has my name on it.
 
 ## How a piece of work gets made
 
@@ -46,7 +46,7 @@ And every mistake becomes a rule: a few lines, dated, with the story of what wen
 
 ## The setup
 
-Nothing exotic, and mostly plain text. A working memory (an index, one file per project, a session log and a "where we left off" note), the rules, and 26 skills, which are packaged procedures for recurring jobs such as building a data collection form, designing a dashboard, analysing a dataset or writing a document in the house style. One copy of the skills is shared by two different agent tools. Five reviewer agents each have a narrow brief. Connectors reach the systems I administer, and the agent can drive a browser and a phone emulator when it needs to see what a user would see.
+Nothing exotic, and mostly plain text. A working memory (an index, one file per project, a session log and a "where we left off" note), the rules, and 26 skills, which are packaged procedures for recurring jobs such as building a form, designing a dashboard, analysing a dataset or writing a document in the house style. One copy of the skills is shared by two different agent tools. Five reviewer agents each have a narrow brief. Connectors reach the systems I administer, and the agent can drive a browser and a phone emulator when it needs to see what a user would see.
 
 ## What stays with me
 
@@ -77,7 +77,7 @@ What the providers do with what the agent sends them:
 
 Training is the step that matters most. European regulators consider that a model trained on personal data is not anonymous by default: it can memorise, and fragments can be extracted through queries ([EDPB, 2024](https://www.edpb.europa.eu/documents/opinion-of-the-board-art-64/opinion-282024-on-certain-data-protection-aspects-related-to_en); [CNIL, 2025](https://cnil.fr/fr/ia-analyser-le-statut-dun-modele-dia-au-regard-du-rgpd)). That is why I switch it off wherever I can.
 
-The line I watch most is personal data about the people my organisation serves. When the work touches it, the agent handles it through scripts that report structure and counts rather than content, on test servers or local copies wherever possible, and none of it goes into my notes. Passwords and keys are kept out of my notes and prompts; most live in the operating system's credential store. The system is not perfect: when a safeguard fails, I record it, fix the rule that let it through, and tell my organisation's data protection officer if personal data was involved.
+The line I watch most is personal data about the people my work is for. When the work touches it, the agent handles it through scripts that report structure and counts rather than content, on test servers or local copies wherever possible, and none of it goes into my notes. Passwords and keys are kept out of my notes and prompts; most live in the operating system's credential store. The system is not perfect: when a safeguard fails, I record it, fix the rule that let it through, and tell my organisation's data protection officer if personal data was involved.
 
 ## What I'm uneasy about
 
