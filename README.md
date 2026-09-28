@@ -36,6 +36,8 @@ Everything is built against reality. Forms, data pipelines and dashboards are ma
 
 Then come fresh eyes. For forms, dashboards, BI code and scripts, a separate reviewer agent, which knows nothing of how the thing was made, scores the work against our standards, and corrections come in waves. Then I review. Anything addressed to a person goes out after I have read it; emails, for instance, are prepared as drafts that I send myself. Once I have approved a direction, some technical loops run on their own, such as publishing a draft dashboard to an internal workspace, exporting its pages, looking at them, fixing and repeating. I look at the result before I share it.
 
+I am now testing agents that go further on their own, including on live systems: deploying forms, migrating records, changing user permissions. That always comes after a rehearsal on a copy, and only on my explicit go-ahead; the largest run so far moved several thousand records without losing one. On a well-defined task, I sometimes let an agent work for hours on its own, then review what it did.
+
 Sessions end with notes on what was decided and what comes next. Local copies that hold personal data are kept only as long as the project needs them, then deleted.
 
 And every mistake becomes a rule: a few lines, dated, with the story of what went wrong. There are about sixty of them now, and the agent reads them at the start of every session. Over time the rules have become the method, and they are probably the most useful thing I have built.
