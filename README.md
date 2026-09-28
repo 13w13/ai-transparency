@@ -1,10 +1,44 @@
 # How I work with AI
 
-*Work in progress. Version 0.4, 28 September 2026. A personal transparency note about my own practice; it does not speak for my employer.*
+*Work in progress. A personal transparency note; it does not speak for my employer.*
 
-A large share of my work now goes through AI tools, mostly agents that can work directly on my files and on the systems I look after. I would rather say so plainly than leave anyone guessing.
+Somewhere between the moment you write to me and the moment I answer, there may be a machine. It may have read your message, helped me think it through, or drafted part of my reply. I would rather tell you than leave you guessing.
 
-This page has two parts: a transparency note on how I use these tools, and a running journal of what I think about them. As more of our work passes through machines, I think this kind of transparency will matter more and more.
+What follows starts with a few reflections on working this way, then the practical side: which tools I use, how, and what happens to the information that passes through them. As more of our work passes through machines, I think this kind of transparency will matter more and more.
+
+## Reflections
+
+### Where my time goes now
+
+For a long time, a big part of my work meant producing things: forms, scripts, databases, dashboards, and the documentation that goes with them. Agents have made that production cheap. A script that took a day takes an hour. A first version of a dashboard takes an afternoon. Agents read several hundred pages of vendor documentation in minutes.
+
+What has not become cheap is everything around the production. Knowing what a team actually needs. Agreeing on what a number means before anyone draws it. Checking that the figure on the screen matches what actually happened. Building something a team can run without me, and helping the people who will use it get comfortable with it.
+
+That is where I try to put my hours now. For me, the gain from these tools is time, moved from producing to the parts of the job that need a person.
+
+I don't measure it, though. I have no reliable numbers on the time these tools save me, only impressions, and impressions flatter. What I do notice is a trade. More gets done, but my attention is split more often, between parallel sessions, reviews and interruptions, and long stretches of concentration have become rarer. The intellectual work is changing too: I write less from a blank page and spend more time reading, judging and cutting. I don't know yet whether that makes me think better or only faster. I am still watching.
+
+The tools help with the thinking too, and not only with the making. I brainstorm with an agent, ask it to challenge a plan or to test a method against published standards, and use it to reflect on how this job is changing. This page started as one of those conversations.
+
+For a creative profile, these tools are a real multiplier. They lower the technical barrier to building a tool, so an idea can become a working prototype in a day. The risk is a tunnel effect: when every idea can be built right away, it is easy to disappear into building and stop asking whether the thing was needed.
+
+Two things keep me honest. The first is attention. The limit is rarely the speed of the tools; it is how much I can read and check, and reading is the one step I cannot hand over. The second is that tunnel. When building is cheap, it is easy to perfect the wrong thing. I once watched a dashboard go through seven mock-ups before we noticed that its headline figure was off by a factor of more than three: the counting rule had never been agreed with the person who owned it. Speed had hidden the question. Since then, definitions come first and visuals after.
+
+### Like a DJ
+
+The image I keep coming back to is a DJ. A DJ does not play every instrument. They know their records, choose what fits the room, cue the next track while the current one plays, cut what drags, and keep an eye on the crowd.
+
+My records are different models and agents, several working sessions running side by side, vendor documentation, community tools, what colleagues know, and the data itself. I rarely take one output as it comes. I combine drafts, keep the strongest parts, change the order, and finish by hand. The crowd is the people the work is for: if it does not land with them, the mix was wrong, however clever it sounded.
+
+This work is also a craft, and on some days the agents feel like the power tools of a workshop: faster and straighter than my hands, with no opinion on what to build. On other days it feels like managing a small team. I brief, I review, I send work back, and I write down what should change next time. Either way, the set has my name on it.
+
+### What I'm uneasy about
+
+These tools are not neutral on authors' rights. They were built by vacuuming up a huge share of humanity's written knowledge, often without the authors' consent, turning that common knowledge into private products. Rules are arriving (Anthropic agreed to pay $1.5 billion to the authors of pirated books; the EU AI Act now requires model providers to respect authors' opt-outs and publish a summary of their training data), but the question is far from closed. I use the tools anyway, because I think we need to master them to use them for good, and I don't consider the question settled.
+
+Who checks what the providers promise? No one in real time. Auditors review their processes, and regulators and courts step in after the fact. What I can check is my own settings and what I choose to send.
+
+I would like to move to open models running on my own machine, so that nothing leaves it. Doing that well takes time: the right hardware, the right model, and a workflow as good as the one I have now. I haven't had that time yet. For now I use proprietary models because they are the most effective for my work and I lack the time and resources to do otherwise. It is a trade-off, and I keep it open.
 
 ## Transparency note
 
@@ -64,44 +98,6 @@ Deciding what to build and when to stop. Agreeing definitions with the people wh
 ### A word on style
 
 I edit what I write against a style guide that strips out the usual marks of machine writing. That is a matter of taste, and this page exists so that nobody has to guess what sits behind it.
-
-## Reflection journal
-
-*Dated entries, added as my thinking moves. The newest comes first.*
-
-### 28 September 2026
-
-#### Where my time goes now
-
-For a long time, a big part of my work meant producing things: forms, scripts, databases, dashboards, and the documentation that goes with them. Agents have made that production cheap. A script that took a day takes an hour. A first version of a dashboard takes an afternoon. Agents read several hundred pages of vendor documentation in minutes.
-
-What has not become cheap is everything around the production. Knowing what a team actually needs. Agreeing on what a number means before anyone draws it. Checking that the figure on the screen matches what actually happened. Building something a team can run without me, and helping the people who will use it get comfortable with it.
-
-That is where I try to put my hours now. For me, the gain from these tools is time, moved from producing to the parts of the job that need a person.
-
-I don't measure it, though. I have no reliable numbers on the time these tools save me, only impressions, and impressions flatter. What I do notice is a trade. More gets done, but my attention is split more often, between parallel sessions, reviews and interruptions, and long stretches of concentration have become rarer. The intellectual work is changing too: I write less from a blank page and spend more time reading, judging and cutting. I don't know yet whether that makes me think better or only faster. I am still watching.
-
-The tools help with the thinking too, and not only with the making. I brainstorm with an agent, ask it to challenge a plan or to test a method against published standards, and use it to reflect on how this job is changing. This page started as one of those conversations.
-
-For a creative profile, these tools are a real multiplier. They lower the technical barrier to building a tool, so an idea can become a working prototype in a day. The risk is a tunnel effect: when every idea can be built right away, it is easy to disappear into building and stop asking whether the thing was needed.
-
-Two things keep me honest. The first is attention. The limit is rarely the speed of the tools; it is how much I can read and check, and reading is the one step I cannot hand over. The second is that tunnel. When building is cheap, it is easy to perfect the wrong thing. I once watched a dashboard go through seven mock-ups before we noticed that its headline figure was off by a factor of more than three: the counting rule had never been agreed with the person who owned it. Speed had hidden the question. Since then, definitions come first and visuals after.
-
-#### Like a DJ
-
-The image I keep coming back to is a DJ. A DJ does not play every instrument. They know their records, choose what fits the room, cue the next track while the current one plays, cut what drags, and keep an eye on the crowd.
-
-My records are different models and agents, several working sessions running side by side, vendor documentation, community tools, what colleagues know, and the data itself. I rarely take one output as it comes. I combine drafts, keep the strongest parts, change the order, and finish by hand. The crowd is the people the work is for: if it does not land with them, the mix was wrong, however clever it sounded.
-
-This work is also a craft, and on some days the agents feel like the power tools of a workshop: faster and straighter than my hands, with no opinion on what to build. On other days it feels like managing a small team. I brief, I review, I send work back, and I write down what should change next time. Either way, the set has my name on it.
-
-#### What I'm uneasy about
-
-These tools are not neutral on authors' rights. They were built by vacuuming up a huge share of humanity's written knowledge, often without the authors' consent, turning that common knowledge into private products. Rules are arriving (Anthropic agreed to pay $1.5 billion to the authors of pirated books; the EU AI Act now requires model providers to respect authors' opt-outs and publish a summary of their training data), but the question is far from closed. I use the tools anyway, because I think we need to master them to use them for good, and I don't consider the question settled.
-
-Who checks what the providers promise? No one in real time. Auditors review their processes, and regulators and courts step in after the fact. What I can check is my own settings and what I choose to send.
-
-I would like to move to open models running on my own machine, so that nothing leaves it. Doing that well takes time: the right hardware, the right model, and a workflow as good as the one I have now. I haven't had that time yet. For now I use proprietary models because they are the most effective for my work and I lack the time and resources to do otherwise. It is a trade-off, and I keep it open.
 
 ## Reuse
 
