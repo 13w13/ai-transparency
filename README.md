@@ -26,9 +26,9 @@ And I am not at ease with everything. These tools were built on a huge share of 
 - A separate reviewer agent checks important work, then I do. Emails are prepared as drafts that I send myself.
 - Recurring jobs are written down as procedures, and every mistake becomes a rule (about sixty so far) that the tools read at the start of each session.
 
-**What happens to your words.**
+**What happens to the data.**
 
-- They go to the provider's servers, and so do my notes when the agent reads them.
+- What the agent reads goes to the provider's servers, my notes included.
 - Training is off wherever I can turn it off. With that setting, Claude keeps conversations for 30 days; flagged content, feedback or a court order can keep them longer. This matters: European regulators consider that a model trained on personal data is not anonymous by default ([EDPB](https://www.edpb.europa.eu/documents/opinion-of-the-board-art-64/opinion-282024-on-certain-data-protection-aspects-related-to_en), [CNIL](https://cnil.fr/fr/ia-analyser-le-statut-dun-modele-dia-au-regard-du-rgpd)).
 - Turning training off doesn't stop profiling: providers still log how I use their tools.
 - Personal data about the people my work is for stays out of my notes; agents handle it through scripts that report structure, not content. When a safeguard fails, I record it and fix the rule.
